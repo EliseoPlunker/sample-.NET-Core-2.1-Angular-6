@@ -1,0 +1,11 @@
+    <ul class="nav flex-column">
+      <li class="nav-item" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+        <a class="nav-link" [routerLink]='["/"]'>Home</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]='["link-active"]' >
+        <a class="nav-link" [routerLink]='["/counter"]' >Counter</a>
+      </li>
+      <li class="nav-item" [routerLinkActive]='["link-active"]' >
+        <a class="nav-link" [routerLink]='["/fetch-data"]' >Fech Data</a>
+      </li>
+    </ul>
